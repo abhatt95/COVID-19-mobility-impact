@@ -5,9 +5,8 @@ A dashboard to track mobility trend of people in United States, due to effects o
 ## Table of content 
 
 1. Data sources 
-2. Data processing 
-3. Helper functions 
-4. Understanding correlations
+2. Data processing  
+3. Understanding correlations
 
 ### Data sources
 *  [Google COVID-19 Community Mobility Reports](https://www.google.com/covid19/mobility/)
