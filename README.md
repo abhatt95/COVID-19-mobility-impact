@@ -6,7 +6,9 @@ A dashboard to track mobility trend of people in United States, due to effects o
 
 1. Data sources 
 2. Data processing  
-3. Understanding correlations
+3. Results 
+4. Helper functions created 
+
 
 ### Data sources
 *  [Google COVID-19 Community Mobility Reports](https://www.google.com/covid19/mobility/)
@@ -30,6 +32,21 @@ A dashboard to track mobility trend of people in United States, due to effects o
     *   Class TSACheckInTuple is used as a helper class to maintain structure of data, help validate it before being added to list and creating a dataframe. 
     *   Using TSACheckInTuple reduces need for cleaning data as only valid records are being added. 
   
-### Understanding correlations
+### Results
 *   Medium article explaining findings in detail -
+
+### Helper functions 
+*  getCorelation(Label1 = '', 
+                  Label2 = 'cases', 
+                  OffsetDays = 14,
+                  Data = mega_frame)
+    *   returns correlation between label1 and label2 in Data (dataframe), using differnce of OffsetDays between label1 and label2. 
+*  plotTrend(Source = US_trend,
+              title = 'Residence trend',
+              isPercentage = True,
+              dateColumnHeader = 'date',
+              labels = ['residential_percent_change_from_baseline'],
+              credits = '')
+    *    returns a plot of trends passed in labels on yaxis with dates on yaxis. Annotations like title and credits can be passed. Additional plot grooming is being performed to make figure aesthetically pleasing. 
+
 
