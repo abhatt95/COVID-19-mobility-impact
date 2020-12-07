@@ -32,4 +32,4 @@ A dashboard to track mobility trend of people in United States, due to effects o
   
 ### Understanding correlations
 *   Medium article explaining findings in detail -
-    https://medium.com/@abhipbhatt/mobility-and-travel-impact-on-spread-of-covid-19-902f8f283e67
+
