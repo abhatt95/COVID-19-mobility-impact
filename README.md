@@ -33,7 +33,7 @@ A dashboard to track mobility trend of people in United States, due to effects o
     *   Using TSACheckInTuple reduces need for cleaning data as only valid records are being added. 
   
 ### Results
-*   Medium article explaining findings in detail -
+*   [Medium article explaining results in detail](https://abhipbhatt.medium.com/mobility-and-travel-impact-on-spread-of-covid-19-902f8f283e67)
 
 ### Helper functions 
 *  getCorelation(Label1 = '', 
