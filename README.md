@@ -6,7 +6,7 @@ A dashboard to track mobility trend of people in United States, due to effects o
 
 1. [Data sources](https://github.com/abhatt95/COVID-19-mobility-impact#data-sources) 
 2. [Data processing](https://github.com/abhatt95/COVID-19-mobility-impact#data-processing) 
-3. [Results](https://github.com/abhatt95/COVID-19-mobility-impact#results) 
+3. [Results](https://abhipbhatt.medium.com/mobility-and-travel-impact-on-spread-of-covid-19-902f8f283e67) 
 4. [Helper functions created](https://github.com/abhatt95/COVID-19-mobility-impact#helper-functions)  
 
 
